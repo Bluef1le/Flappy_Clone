@@ -25,13 +25,13 @@ PIPE_SPACING = 200
 FPS = 60
 
 # Load assets
-BIRD_IMAGE = pygame.image.load("bird.png")
+BIRD_IMAGE = pygame.image.load("assets/bird.png")
 BIRD_IMAGE = pygame.transform.scale(BIRD_IMAGE, (40, 30))  # Resize bird image
-PIPE_IMAGE = pygame.image.load("pipe.png")  # Load pipe image
+PIPE_IMAGE = pygame.image.load("assets/pipe.png")  # Load pipe image
 PIPE_IMAGE = pygame.transform.scale(PIPE_IMAGE, (PIPE_WIDTH, PIPE_HEIGHT))
-BACKGROUND1_IMAGE = pygame.image.load("background1.png")
+BACKGROUND1_IMAGE = pygame.image.load("assets/background1.png")
 BACKGROUND1_IMAGE = pygame.transform.scale(BACKGROUND1_IMAGE, (WIDTH, HEIGHT))
-BACKGROUND2_IMAGE = pygame.image.load("background2.png")
+BACKGROUND2_IMAGE = pygame.image.load("assets/background2.png")
 BACKGROUND2_IMAGE = pygame.transform.scale(BACKGROUND2_IMAGE, (WIDTH, 100))
 
 # Initialize screen
