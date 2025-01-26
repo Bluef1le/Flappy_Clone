@@ -112,8 +112,7 @@ class Background:
         screen.blit(BACKGROUND2_IMAGE, (self.x2, HEIGHT - 100))
         screen.blit(BACKGROUND2_IMAGE, (self.x2 + WIDTH, HEIGHT - 100))
 
-# Main game loop
-def main():
+if __name__ == "__main__":
     best_score = 0
 
     while True:
@@ -189,6 +188,3 @@ def main():
 
             pygame.display.flip()
             clock.tick(FPS)
-
-if __name__ == "__main__":
-    main()
